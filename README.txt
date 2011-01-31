@@ -6,12 +6,12 @@ written in PHP.
 
 0. CONTENTS
 =============
-1. USAGE EXAMPLE
+1. USAGE
 2. DEVELOPERS
 3. CREDITS & LICENSE
 
 
-1. OPERATING SSLSCROBBLER
+1. USAGE
 ===========================
 
 *** BeatPHPort IS CURRENTLY INCOMPLETE. ***
