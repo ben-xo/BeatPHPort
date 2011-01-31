@@ -1,0 +1,37 @@
+{
+  "id": 7,
+  "name": "Trance",
+  "slug": "Trance",
+  "subgenres": [
+    {
+      "id": 28,
+      "name": "Acid",
+      "slug": "Acid"
+    },
+    {
+      "id": 30,
+      "name": "Epic",
+      "slug": "Epic"
+    },
+    {
+      "id": 31,
+      "name": "Hard",
+      "slug": "Hard"
+    },
+    {
+      "id": 27,
+      "name": "Progressive",
+      "slug": "Progressive"
+    },
+    {
+      "id": 29,
+      "name": "Tech",
+      "slug": "Tech"
+    },
+    {
+      "id": 26,
+      "name": "Tribal",
+      "slug": "Tribal"
+    }
+  ]
+}

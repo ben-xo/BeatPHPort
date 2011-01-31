@@ -1,0 +1,200 @@
+{
+  "id": 164808,
+  "type": "release",
+  "name": "Anjunabeats Volume 6 (Unmixed - DJ Ready)",
+  "releaseDate": "2009-04-06",
+  "publishDate": "2009-04-06",
+  "exclusive": false,
+  "category": "Album",
+  "description": "This release from Anjunabeats contains all of the great tracks from Volume 6 ready for mixing.",
+  "currentStatus": "General Content",
+  "catalogNumber": "ANJCDCO011D",
+  "trackPrice": {
+    "usd": 4321,
+    "eur": 3770,
+    "gbp": 3248
+  },
+  "discount": {
+    "usd": 2722,
+    "eur": 2375,
+    "gbp": 2046
+  },
+  "price": {
+    "usd": 1599,
+    "eur": 1395,
+    "gbp": 1202
+  },
+  "label": {
+    "id": 804,
+    "name": "Anjunabeats"
+  },
+  "artists": [
+    {
+      "id": 211,
+      "name": "Andy Moor",
+      "type": "Artist"
+    },
+    {
+      "id": 2976,
+      "name": "Shane 54",
+      "type": "Artist"
+    },
+    {
+      "id": 5386,
+      "name": "Bart Claessen",
+      "type": "Artist"
+    },
+    {
+      "id": 6489,
+      "name": "OceanLab",
+      "type": "Artist"
+    },
+    {
+      "id": 6669,
+      "name": "Signalrunners",
+      "type": "Artist"
+    },
+    {
+      "id": 7181,
+      "name": "Above & Beyond",
+      "type": "Artist"
+    },
+    {
+      "id": 8998,
+      "name": "Jaytech",
+      "type": "Artist"
+    },
+    {
+      "id": 11879,
+      "name": "Boom Jinx",
+      "type": "Artist"
+    },
+    {
+      "id": 12919,
+      "name": "Julie Thompson",
+      "type": "Artist"
+    },
+    {
+      "id": 16498,
+      "name": "Johan Vermeulen",
+      "type": "Artist"
+    },
+    {
+      "id": 17030,
+      "name": "Paul Keeley",
+      "type": "Artist"
+    },
+    {
+      "id": 19090,
+      "name": "Neumann",
+      "type": "Artist"
+    },
+    {
+      "id": 19183,
+      "name": "Nitrous Oxide",
+      "type": "Artist"
+    },
+    {
+      "id": 19557,
+      "name": "Adam Nickey",
+      "type": "Artist"
+    },
+    {
+      "id": 22052,
+      "name": "Joonas Hahmo",
+      "type": "Artist"
+    },
+    {
+      "id": 24276,
+      "name": "Proff",
+      "type": "Artist"
+    },
+    {
+      "id": 32659,
+      "name": "Daniel Kandi",
+      "type": "Artist"
+    },
+    {
+      "id": 35216,
+      "name": "Komytea",
+      "type": "Artist"
+    },
+    {
+      "id": 35625,
+      "name": "Mat Zo",
+      "type": "Artist"
+    },
+    {
+      "id": 41125,
+      "name": "Oliver Smith",
+      "type": "Artist"
+    },
+    {
+      "id": 51726,
+      "name": "Dave Schiemann",
+      "type": "Artist"
+    },
+    {
+      "id": 61954,
+      "name": "Myon",
+      "type": "Artist"
+    },
+    {
+      "id": 75268,
+      "name": "Tritonal",
+      "type": "Artist"
+    },
+    {
+      "id": 81018,
+      "name": "Sundriver",
+      "type": "Artist"
+    },
+    {
+      "id": 93336,
+      "name": "Super8 & Tab",
+      "type": "Artist"
+    },
+    {
+      "id": 40060,
+      "name": "Michael Cassette",
+      "type": "Remixer"
+    },
+    {
+      "id": 41125,
+      "name": "Oliver Smith",
+      "type": "Remixer"
+    },
+    {
+      "id": 58751,
+      "name": "Dinka",
+      "type": "Remixer"
+    }
+  ],
+  "genres": [
+    {
+      "id": 7,
+      "name": "Trance"
+    },
+    {
+      "id": 15,
+      "name": "Progressive House"
+    }
+  ],
+  "images": {
+    "small": {
+      "width": 30,
+      "height": 30,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/300000\/90000\/2000\/600\/90\/392699.jpg"
+    },
+    "medium": {
+      "width": 60,
+      "height": 60,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/300000\/90000\/2000\/700\/0\/392700.jpg"
+    },
+    "large": {
+      "width": 500,
+      "height": 500,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/300000\/90000\/2000\/700\/0\/392701.jpg"
+    }
+  }
+}

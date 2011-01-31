@@ -1,0 +1,76 @@
+{
+  "id": 1305,
+  "type": "label",
+  "name": "Monster Tunes",
+  "lastPublishDate": "2010-06-14",
+  "biography": "Monster Tunes was set up in April 2004 by Simon Brisk otherwise known as Brisky. Brisky is best known for his role at Chemical Records in which he built the impressive reputation for being the best online trance.",
+  "genres": [
+    {
+      "id": 7,
+      "name": "Trance"
+    },
+    {
+      "id": 15,
+      "name": "Progressive House"
+    },
+    {
+      "id": 8,
+      "name": "Hard Dance"
+    },
+    {
+      "id": 10,
+      "name": "Chill Out"
+    },
+    {
+      "id": 17,
+      "name": "Electro House"
+    }
+  ],
+  "subGenres": [
+    {
+      "id": 30,
+      "name": "Epic"
+    },
+    {
+      "id": 31,
+      "name": "Hard"
+    },
+    {
+      "id": 32,
+      "name": "Nu-NRG"
+    },
+    {
+      "id": 27,
+      "name": "Progressive"
+    },
+    {
+      "id": 29,
+      "name": "Tech"
+    },
+    {
+      "id": 39,
+      "name": "Downtempo"
+    },
+    {
+      "id": 26,
+      "name": "Tribal"
+    }
+  ],
+  "images": {
+    "small": {
+      "width": 30,
+      "height": 30,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/500000\/60000\/5000\/700\/70\/565770.jpg"
+    },
+    "medium": {
+      "width": 60,
+      "height": 60,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/500000\/60000\/5000\/700\/70\/565771.jpg"
+    },
+    "banner": {
+      "width": 592,
+      "height": 96,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/500000\/80000\/0\/700\/0\/580700.jpg"
+    }
+  }
+}

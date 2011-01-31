@@ -1,0 +1,39 @@
+{
+  "id": 18785,
+  "type": "chart",
+  "name": "Above & Beyond Anjunabeats Top 10",
+  "description": "To celebrate the 7th edition of their Anjunabeats series Above & Beyond have put together their latest top 10 based on the compilation.",
+  "publishDate": "2009-10-06",
+  "price": {
+    "usd": 1490,
+    "eur": 1300,
+    "gbp": 1120
+  },
+  "genres": [
+    {
+      "id": 15,
+      "name": "Progressive House"
+    },
+    {
+      "id": 7,
+      "name": "Trance"
+    }
+  ],
+  "images": {
+    "small": {
+      "width": 30,
+      "height": 30,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/400000\/90000\/1000\/500\/30\/491534.jpg"
+    },
+    "medium": {
+      "width": 60,
+      "height": 60,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/500000\/0\/1000\/500\/0\/501507.jpg"
+    },
+    "large": {
+      "width": 130,
+      "height": 130,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/500000\/0\/1000\/500\/0\/501508.jpg"
+    }
+  }
+}

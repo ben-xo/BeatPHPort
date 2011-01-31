@@ -1,0 +1,80 @@
+{
+  "id": 3815,
+  "type": "artist",
+  "name": "Ferry Corsten",
+  "lastPublishDate": "2010-06-21",
+  "biography": "Forget everything you know about the phrase 'International DJ,' and allow yourself the pleasure of meeting Ferry Corsten...",
+  "genres": [
+    {
+      "id": 7,
+      "name": "Trance"
+    },
+    {
+      "id": 15,
+      "name": "Progressive House"
+    },
+    {
+      "id": 17,
+      "name": "Electro House"
+    },
+    {
+      "id": 5,
+      "name": "House"
+    },
+    {
+      "id": 8,
+      "name": "Hard Dance"
+    },
+    {
+      "id": 3,
+      "name": "Electronica"
+    },
+    {
+      "id": 10,
+      "name": "Chill Out"
+    }
+  ],
+  "subGenres": [
+    {
+      "id": 27,
+      "name": "Progressive"
+    },
+    {
+      "id": 17,
+      "name": "Vocal House"
+    },
+    {
+      "id": 29,
+      "name": "Tech"
+    },
+    {
+      "id": 14,
+      "name": "Electro"
+    },
+    {
+      "id": 39,
+      "name": "Downtempo"
+    },
+    {
+      "id": 31,
+      "name": "Hard"
+    }
+  ],
+  "images": {
+    "small": {
+      "width": 30,
+      "height": 30,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/400000\/90000\/1000\/500\/20\/491527.jpg"
+    },
+    "medium": {
+      "width": 88,
+      "height": 60,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/400000\/90000\/1000\/500\/30\/491530.jpg"
+    },
+    "large": {
+      "width": 590,
+      "height": 405,
+      "url": "http:\/\/ak-media.beatport.com\/items\/imageCatalog\/0\/300000\/70000\/7000\/200\/40\/377243.jpg"
+    }
+  }
+}
