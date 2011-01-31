@@ -81,7 +81,7 @@ class BeatportAPIClient
     
     public function getTrackByArtist($artistName, $trackName)
     {
-        $url = self::BASE . 'catalog/search' . implode('&', array(
+        $url = self::BASE . 'catalog/search?' . implode('&', array(
             'v=2.0',
             'format=json',
             'query=' . urlencode($trackName),
