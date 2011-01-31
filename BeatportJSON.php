@@ -106,7 +106,10 @@ class BeatportJSON
     public function createArtistPlaceholders(array $artists)
     {
         $placeholders = array();
-        
+        foreach($artists as $a)
+        {
+            $placeholders[] = new BeatportArtistPlaceholder($a['id'], $a['name']);
+        }
         return $placeholders;
     }
 
@@ -118,6 +121,13 @@ class BeatportJSON
     }
 
     public function createReleasePlaceholders(array $releases)
+    {
+        $placeholders = array();
+        
+        return $placeholders;
+    }
+    
+    public function createLabelPlaceholders(array $labels)
     {
         $placeholders = array();
         

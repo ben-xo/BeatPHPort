@@ -33,11 +33,11 @@ class BeatportArtistPlaceholder
      */
     protected $apiClient;
     
-    public function __construct($id, $name, $apiClient)
+    public function __construct($id, $name)
     {
         $this->id = $id;
         $this->name = $name;
-        $this->apiClient = $apiClient;
+//        $this->apiClient = $apiClient;
     }
     
     public function getName()
@@ -50,8 +50,8 @@ class BeatportArtistPlaceholder
         return $this->id;
     }
     
-    public function getArtist()
-    {
-        return $this->apiClient->getArtist($this->id);
-    }
+//    public function getArtist()
+//    {
+//        return $this->apiClient->getArtist($this->id);
+//    }
 }

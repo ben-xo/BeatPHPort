@@ -81,6 +81,9 @@ class BeatportAPIClient
     
     public function getTrackByArtist($artistName, $trackName)
     {
+        $bpj = $this->newBeatportJSON();
+        
+        // Search for a track name filtered by artist.
         $url = self::BASE . 'catalog/search?' . implode('&', array(
             'v=2.0',
             'format=json',
@@ -90,17 +93,32 @@ class BeatportAPIClient
             'page=1'
         ));
         
-        $json = $this->getURL($url);
-        $json_data = json_decode($json, true);        
-        
-        $bpj = $this->newBeatportJSON();
-        
+        $json_data = json_decode($this->getURL($url), true);
         $results = $bpj->preprocessAPISearchResult($json_data);
         
         if(empty($results))
         {
-            // Not Found.
-            return null;
+            // Let's try flipping the query terms around.
+            // Search for an artist and track name filtered by track name. 
+            $url = self::BASE . 'catalog/search?' . implode('&', array(
+                'v=2.0',
+                'format=json',
+                'query=' . urlencode($artistName . ' ' . $trackName),
+                'facets=fieldType:track,trackName:' . urlencode($trackName),
+                'perPage=1',
+                'page=1'
+            ));
+            
+            $json_data = json_decode($this->getURL($url), true);
+            $results = $bpj->preprocessAPISearchResult($json_data);
+            
+            if(empty($results))
+            {
+                // Give up.
+                               
+                // Not Found.
+                return null;
+            }
         }
         
         $track = $this->newBeatportTrack();

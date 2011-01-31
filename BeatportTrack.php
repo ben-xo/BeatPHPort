@@ -46,7 +46,6 @@ class BeatportTrack
     protected $length;
     protected $saleType;
     protected $availableWorldwide;
-    protected $label;
     protected $position;
         
     /**
@@ -80,9 +79,15 @@ class BeatportTrack
     protected $images = array();
     
     /**
-     * @var BeatportRelease
+     * @var BeatportReleasePlaceholder
      */
     protected $release;
+
+    /**
+     * @var BeatportLabelPlaceholder
+     */
+    protected $label;
+    
     
     public function __construct($json=null)
     {    
@@ -106,7 +111,6 @@ class BeatportTrack
     public function getLength() { return $this->length; }
     public function getSaleType() { return $this->saleType; }
     public function getAvailableWorldwide() { return $this->availableWorldwide; }
-    public function getLabel() { return $this->label; }
     public function getPosition() { return $this->position; }
     public function getTerritories() { return $this->territories; }
     
@@ -118,6 +122,17 @@ class BeatportTrack
     public function getPrice($currency)
     {
         return $this->price->getPrice($currency);
+    }
+    
+    public function getArtistNames()
+    {
+        $names = array();
+        foreach($this->artists as $a)
+        {
+            /* @var $a BeatportArtistPlaceholder */
+            $names[] = $a->getName();
+        }
+        return $names;
     }
     
     public function getURL($language='en-US')
@@ -160,6 +175,7 @@ class BeatportTrack
 
         if(is_array($data['images']))
         {
+            // TODO: proper proxy object
             $this->images = $data['images'];
         }
         
@@ -170,17 +186,22 @@ class BeatportTrack
 
         if(is_array($data['genres']))
         {
-            $this->artists = $bpj->createGenrePlaceholders($data['genres']);
+            $this->genres = $bpj->createGenrePlaceholders($data['genres']);
         }
         
         if(is_array($data['charts']))
         {
-            $this->artists = $bpj->createChartPlaceholders($data['charts']);
+            $this->charts = $bpj->createChartPlaceholders($data['charts']);
         }
         
         if(isset($data['release']))
         {
             $this->release = $bpj->createReleasePlaceholders(array($data['release']));
+        }        
+
+        if(isset($data['label']))
+        {
+            $this->label = $bpj->createLabelPlaceholders(array($data['label']));
         }        
     }    
 }
